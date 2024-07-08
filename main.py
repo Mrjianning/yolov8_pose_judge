@@ -313,8 +313,8 @@ def draw_chinese_text(image, text, position, font_path, font_size, color):
 
 if __name__ == "__main__":
     yolov8 = YOLOv8Pose(model_path='yolov8n-pose.pt', device='cpu', conf=0.25, iou=0.7)
-    imgs = ['stand.png', 'walk.png', 'tiao.png']  # 图片路径列表，这里假设有三张图片
-    processed_images = []  # 存储处理后的图片结果
+    imgs = ['images/stand.png', 'images/walk.png', 'images/tiao.png']  # 图片路径列表，这里假设有三张图片
+    processed_images = []                         # 存储处理后的图片结果
 
     # 处理每张图片并存储结果
     for img_path in imgs:
