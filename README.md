@@ -26,7 +26,7 @@ YOLOv8 人体姿态判断是一个基于最新YOLOv8模型的深度学习项目�
 首先克隆这个仓库到本地：
 
 ```bash
-git clone git@github.com:Mrjianning/yolov8_pose_judge.git
+git clone https://github.com/Mrjianning/yolov8_pose_judge.git
 cd yolov8_pose_judge
 ```
 
